@@ -1,11 +1,26 @@
 /*
 
-	CSS for NewVolume Home
+	CSS for Chris McGuire Portfolio Site
 	
+	COLORS
+		#950202; - Red
+		#052426; - Dark Blue
+		#083B40; - Dark Teal
+		#0F6B73; - Teal
+		#19B2BF; - Light
+		#C0C0C0; - Silver Grey
 
+		
+	FONTS
+		"sitka heading"
+		"sitka subheading"
+		"Mada"
+		"Nunito"
 */
-/*--------------------------
----------- MAIN CSS --------
+
+/*---------------------------------------------------
+--------------------- MAIN CSS ----------------------
+-----------------------------------------------------
 */
 
 body {
@@ -18,8 +33,16 @@ body {
 }
 
 header {
-	height: 300px;
+	max-width: 1025px;
+	width: 100%;
+	height: 350px;
 	background-color: #C0C0C0;
+	background-image: url('../img/radio_header.jpg');
+	background-repeat: no-repeat;
+	background-position: top-center; 
+	background-attachment: fixed;
+	/* background-size: 100% auto; */
+	background-size: cover;
 }
 
 main {
@@ -27,9 +50,25 @@ main {
 	width: 100%;
 }
 
+h1 {
+	font-size: 3.5em;
+	color: #052426;
+	text-align: center;
+	font-family: "sitka heading";
+}
+
+h2 {
+	font-size: 2em;
+	color: #052426;
+	text-align: center;
+	font-family: "sitka subheading";
+}
+
 p {
 	font-size: 1em;
 }
+
+/*-------------------- ACCORDIAN CSS ---------------------*/
 
 .ui-accordion {}
 
@@ -40,13 +79,14 @@ p {
 	font-size: 2.5em;
 	border-radius: 5px;
 	outline: none;
+	text-align: left;
+	border: none;
 }
 
 .ui-accordion-content {
 	width: 90%;
 	margin: auto;
 }
-
 
 .ui-accordion-content-active {
 	width: 80%;
@@ -60,6 +100,11 @@ p {
 --------DESKTOP CSS-----
 ----------------------*/
 @media only screen and (min-width: 1025px) {
+	#header {
+		max-width: none;
+		width: 100%;
+	}
+	
     #wrapper {
         width: 1200px;
         margin: 0 auto;
