@@ -1,0 +1,60 @@
+/*
+
+	CSS for NewVolume Home
+	
+
+*/
+/*--------------------------
+---------- MAIN CSS --------
+*/
+
+body {
+	background-color: #19B2BF;
+}
+
+#wrapper {
+	width: 100%;
+	
+}
+
+main {
+	background-color: #0F6B73;
+	width: 100%;
+}
+
+p {
+	font-size: 1em;
+}
+
+.ui-accordion {}
+
+.ui-accordion .ui-accordion-header {
+	font-family: "sitka heading";
+	background-color: #000;
+	color: #19B2BF;
+	font-size: 2.5em;
+	border-radius: 5px;
+	outline: none;
+}
+
+.ui-accordion-content {
+	width: 90%;
+	margin: auto;
+}
+
+
+.ui-accordion-content-active {
+	width: 90%;
+	margin: auto;
+}
+
+/*---------------------
+--------DESKTOP CSS-----
+----------------------*/
+@media only screen and (min-width: 1025px) {
+    #wrapper {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
