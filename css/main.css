@@ -3,17 +3,19 @@
 	CSS for Chris McGuire Portfolio Site
 	
 	COLORS
-		#950202; - Red
-		#052426; - Dark Blue
-		#083B40; - Dark Teal
-		#0F6B73; - Teal
-		#19B2BF; - Light
-		#C0C0C0; - Silver Grey
+		#950202; rgb(149,2,2);     - Dark red
+		#052426; rgb(5,36,38);     - Very dark (mostly black) cyan
+		#083B40; rgb(8,59,64);     - Very dark cyan
+		#0F6B73; rgb(15,107,115);  - Dark cyan
+		#19B2BF; rgb(25,178,191);  - Strong Cyan
+		#C0C0C0; rgb(192,192,192); - Silver Grey
 
 		
 	FONTS
-		"sitka heading"
-		"sitka subheading"
+		"sitka heading" - Doesn't work on Mac
+            font-family: "sitka heading", Tahoma, Verdana, Segoe, sans-serif;
+		"sitka subheading" - Doesn't work on Mac
+            font-family: "sitka subheading", Tahoma, Verdana, Segoe, sans-serif;
 		"Mada"
 		"Nunito"
 */
@@ -29,20 +31,29 @@ body {
 
 #wrapper {
 	width: 100%;
-	
 }
 
 header {
-	max-width: 1025px;
-	width: 100%;
+	/*max-width: 960px;
+	width: 100%;*/
 	height: 350px;
 	background-color: #C0C0C0;
-	background-image: url('../img/radio_header.jpg');
+	background-image: url('../img/radio_header.jpg'); /* image size: 1208px X 800px */
 	background-repeat: no-repeat;
-	background-position: top-center; 
+	background-position: top center; 
 	background-attachment: fixed;
-	/* background-size: 100% auto; */
-	background-size: cover;
+	background-size: contain; 
+}
+
+#logo {
+    position: relative;
+    top: 100px;
+    margin: 0px auto;
+    width: 400px;
+    color: #052426;
+    background-color: rgba(192,192,192,.9);
+    border-radius: 5px;
+    padding: 10px;
 }
 
 main {
@@ -54,14 +65,14 @@ h1 {
 	font-size: 3.5em;
 	color: #052426;
 	text-align: center;
-	font-family: "sitka heading";
+	font-family: "sitka heading", "Tahoma", sans-serif;
 }
 
 h2 {
 	font-size: 2em;
 	color: #052426;
 	text-align: center;
-	font-family: "sitka subheading";
+	font-family: "sitka subheading", sans-serif;
 }
 
 p {
@@ -70,17 +81,31 @@ p {
 
 /*-------------------- ACCORDIAN CSS ---------------------*/
 
-.ui-accordion {}
+.ui-accordion {
+    font-family: "sitka heading";
+}
 
 .ui-accordion .ui-accordion-header {
-	font-family: "sitka heading";
+	font-family: "sitka heading", sans-serif;
 	background-color: #000;
-	color: #19B2BF;
+	color: #C0C0C0;
 	font-size: 2.5em;
 	border-radius: 5px;
 	outline: none;
 	text-align: left;
 	border: none;
+}
+
+.ui-accordion-header {
+    font-family: "sitka heading", sans-serif;
+}
+
+.ui-accordion-header:hover {
+    color: #19B2BF;
+}
+
+.ui-accordion-header:active {
+    color: #FFF;
 }
 
 .ui-accordion-content {
@@ -92,21 +117,37 @@ p {
 	width: 80%;
 	height: 300px;
 	margin: auto;
-	background-color: #C0C0C0;
-	
+	background-color: #C0C0C0;	
 }
 
-/*---------------------
---------DESKTOP CSS-----
-----------------------*/
-@media only screen and (min-width: 1025px) {
-	#header {
-		max-width: none;
+/*-----------------------------------------------------------------------
+-----------------------------TABLET CSS----------------------------------
+-------------------------------------------------------------------------*/
+@media only screen and (min-width: 960px) and (max-device-width: 1280px) {
+    /*#header {
+		max-width: 960px;
 		width: 100%;
-	}
+	}*/
+    
+    #wrapper {
+        max-width: 960px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+/*------------------------------------------------------------------------
+------------------------------DESKTOP CSS---------------------------------
+-------------------------------------------------------------------------*/
+@media only screen and (min-width: 1280px) {
+	/*#header {
+		max-width: 1200px;
+		width: 100%;
+	}*/
 	
     #wrapper {
-        width: 1200px;
+        max-width: 1200px;
+        width: 100%;
         margin: 0 auto;
     }
 }
