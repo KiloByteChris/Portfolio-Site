@@ -27,10 +27,15 @@
 
 body {
 	background-color: #19B2BF;
+	font-family: sans-serif;
 }
 
 #wrapper {
-	width: 100%;
+    /* max-width: 530px;
+    width: 100%; */
+    width: 530px;
+    margin: 0 auto;
+	background-color: #950202;
 }
 
 header {
@@ -50,16 +55,26 @@ header {
     position: relative;
     top: 100px;
     margin: 0px auto;
-    width: 400px;
+	max-width: 400px;
+    width: 100%;
     color: #052426;
     background-color: rgba(192,192,192,.9);
     border-radius: 5px;
     padding: 10px;
 }
 
+#borderDiv {
+	width: 510px;
+	margin: 0 auto;
+	background-color: #0F6B73;
+}
+
 main {
 	background-color: #0F6B73;
-	width: 100%;
+	/* max-with: 400px;
+	width: 100%; */
+	width: 200px;
+	margin: 0 auto;
 }
 
 h1 {
@@ -125,14 +140,20 @@ p {
 -----------------------------MOBILE CSS----------------------------------
 -------------------------------------------------------------------------*/
 @media only screen and (min-width: 600px) and (max-width: 960px) {
-    header {
-        height: 550px;
-        background-size: 830px;
+    #wrapper {
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+    }
+	
+	header {
+        height: 395px;
+        background-size: 600px;
     }
     
     #logo {
         positon: relative;
-        top: 250px;
+        top: 150px;
     }
 }
 
@@ -140,31 +161,41 @@ p {
 -----------------------------TABLET CSS----------------------------------
 -------------------------------------------------------------------------*/
 @media only screen and (min-width: 960px) and (max-width: 1280px) {
-    header {
-		height: 650px;
-		background-size: 980px;
-	}
-    
     #wrapper {
         max-width: 960px;
         width: 100%;
         margin: 0 auto;
     }
+	
+	header {
+		height: 650px;
+		background-size: 980px;
+	}
+	
+	#logo {
+		top: 300px;
+		padding: 20px;
+	}
 }
 
 /*------------------------------------------------------------------------
 ------------------------------DESKTOP CSS---------------------------------
 -------------------------------------------------------------------------*/
 @media only screen and (min-width: 1280px) {
-    header {
-		height: 790px;
-		background-size: 1200px;
-	}
-    
     #wrapper {
         max-width: 1200px;
         width: 100%;
         margin: 0 auto;
     }
+	
+	header {
+		height: 792px;
+		background-size: 1200px;
+	}
+	
+	#logo {
+		top: 350px;
+		padding: 20px;
+	}
 }
 
