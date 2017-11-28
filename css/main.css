@@ -33,62 +33,62 @@ body {
 #wrapper {
     /* max-width: 530px;
     width: 100%; */
-    width: 530px;
+    width: 300px;
     margin: 0 auto;
 	background-color: #950202;
 }
 
 header {
-	/*max-width: 960px;
-	width: 100%;*/
-	height: 350px;
+	height: 200px;
 	background-color: #0F6B73;
 	background-image: url('../img/radio_header.jpg'); /* image size: 1208px X 800px */
 	background-repeat: no-repeat;
 	background-position: top center; 
 	background-attachment: fixed;
-	/*background-size: contain; */
-    background-size: 530px;
+    background-size: 300px;
 }
 
 #logo {
     position: relative;
-    top: 100px;
+    top: 50px;
     margin: 0px auto;
-	max-width: 400px;
+	max-width: 300px;
     width: 100%;
     color: #052426;
     background-color: rgba(192,192,192,.9);
     border-radius: 5px;
-    padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #borderDiv {
-	width: 510px;
+	width: 280px;
 	margin: 0 auto;
 	background-color: #0F6B73;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 main {
 	background-color: #0F6B73;
-	/* max-with: 400px;
-	width: 100%; */
-	width: 200px;
+	width: 260px;
 	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 h1 {
-	font-size: 3.5em;
+	font-size: 2em;
 	color: #052426;
 	text-align: center;
 	font-family: "sitka heading", "Tahoma", sans-serif;
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 1.2em;
 	color: #052426;
 	text-align: center;
-	font-family: "sitka subheading", sans-serif;
+	font-family: mada, "sitka subheading", sans-serif;
 }
 
 p {
@@ -105,11 +105,15 @@ p {
 	font-family: "sitka heading", sans-serif;
 	background-color: #000;
 	color: #C0C0C0;
-	font-size: 2.5em;
+	font-size: 2em;
 	border-radius: 5px;
 	outline: none;
 	text-align: left;
 	border: none;
+}
+
+.ui-accordion .ui-accordion-content {
+	padding: 0;
 }
 
 .ui-accordion-header {
@@ -125,20 +129,57 @@ p {
 }
 
 .ui-accordion-content {
-	width: 90%;
+	/* width: 90%; */
 	margin: auto;
 }
 
 .ui-accordion-content-active {
-	width: 80%;
+	/* width: 80%; */
 	height: 300px;
 	margin: auto;
 	background-color: #C0C0C0;	
 }
 
-/*-----------------------------------------------------------------------
------------------------------MOBILE CSS----------------------------------
--------------------------------------------------------------------------*/
+footer {
+	background-color: #083B40;
+	color: #fff;
+}
+
+footer p {
+	padding: 20px 0 20px 0;
+}
+
+/*-------------------------------------------------------------------------------
+-----------------------------SMALL MOBILE CSS------------------------------------
+-------------------------------------------------------------------------------*/
+@media only screen and (min-width: 400px) and (max-width: 599px) {
+    #wrapper {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+	
+	header {
+        height: 265px;
+        background-size: 400px;
+    }
+    
+    #logo {
+        top: 110px;
+    }
+	
+	#borderDiv {
+		width: 380px;
+	}
+	
+	main {
+		width: 360px;
+	}
+}
+
+/*-------------------------------------------------------------------------------
+-----------------------------LARGE MOBILE CSS------------------------------------
+-------------------------------------------------------------------------------*/
 @media only screen and (min-width: 600px) and (max-width: 960px) {
     #wrapper {
         max-width: 600px;
@@ -152,9 +193,16 @@ p {
     }
     
     #logo {
-        positon: relative;
         top: 150px;
     }
+	
+	#borderDiv {
+		width: 580px;
+	}
+	
+	main {
+		width: 560px;
+	}
 }
 
 /*-----------------------------------------------------------------------
@@ -176,6 +224,14 @@ p {
 		top: 300px;
 		padding: 20px;
 	}
+	
+	#borderDiv {
+		width: 940px;
+	}
+	
+	main {
+		width: 920px;
+	}
 }
 
 /*------------------------------------------------------------------------
@@ -196,6 +252,14 @@ p {
 	#logo {
 		top: 350px;
 		padding: 20px;
+	}
+	
+	#borderDiv {
+		width: 1140px;
+	}
+	
+	main {
+		width: 1120px;
 	}
 }
 
