@@ -194,6 +194,9 @@ footer p {
     
     #logo {
         top: 150px;
+		max-width: 400px;
+		width: 100%;
+		font-size: 1.5em;
     }
 	
 	#borderDiv {
@@ -221,7 +224,10 @@ footer p {
 	}
 	
 	#logo {
-		top: 300px;
+		max-width: 450px;
+		width: 100%;
+		font-size: 2em;
+		top: 250px;
 		padding: 20px;
 	}
 	
@@ -250,8 +256,11 @@ footer p {
 	}
 	
 	#logo {
-		top: 350px;
+		max-width: 500px;
+		width: 100%;
+		top: 280px;
 		padding: 20px;
+		font-size: 2.5em;
 	}
 	
 	#borderDiv {
