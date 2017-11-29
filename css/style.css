@@ -145,6 +145,7 @@ footer {
 	margin: 5px;
 	font-size: 1.5em;
 	font-family: mada;
+	text-align: center;
 }
 .contentDiv p{
 	margin: 5px;
@@ -163,6 +164,15 @@ footer p {
 }
 
 /*------------------------ WEB DEV CSS -------------------------------*/
+#webDev h3 {
+	text-align: center;
+}
+
+#webDev h4 {
+	font-size: 1.3em;
+	text-align: center;
+}
+
 .sampleWebsite {
 	width: 260px;
 }
@@ -241,6 +251,10 @@ footer p {
 	}
 	
 	/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
+	.contentDiv h3{
+		font-size: 2em;
+	}
+	
 	#aboutImg {
 		float: left;
 	}
@@ -300,6 +314,10 @@ footer p {
 	}
 	
 	/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
+	.contentDiv h3{
+		font-size: 2em;
+	}
+	
 	#aboutImg {
 		float: left;
 	}
@@ -311,6 +329,11 @@ footer p {
 	#aboutMe p {
 		float: right;
 		width: 650px;
+	}
+	
+	.sampleWebsite {
+		width: 400px;
+		height: auto;
 	}
 	
 	#guitarImg {
@@ -365,6 +388,10 @@ footer p {
 	}
 	
 	/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
+	.contentDiv h3{
+		font-size: 2.5em;
+	}
+	
 	#aboutImg {
 		float: left;
 	}
@@ -376,6 +403,11 @@ footer p {
 	#aboutMe p {
 		float: right;
 		width: 850px;
+	}
+	
+	.sampleWebsite {
+		width: 500px;
+		height: auto;
 	}
 	
 	#guitarImg {
