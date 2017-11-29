@@ -128,16 +128,14 @@ p {
 }
 
 .ui-accordion-header:active {
-    color: #FFF;
+    color: #FFF; !important
 }
 
 .ui-accordion-content {
-	/* width: 90%; */
 	margin: auto;
 }
 
 .ui-accordion-content-active {
-	/* width: 80%; */
 	height: initial;
 	margin: auto;
 	background-color: #C0C0C0;	
