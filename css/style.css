@@ -12,10 +12,8 @@
 
 		
 	FONTS
-		"sitka heading" - Doesn't work on Mac
-            font-family: "sitka heading", Tahoma, Verdana, Segoe, sans-serif;
-		"sitka subheading" - Doesn't work on Mac
-            font-family: "sitka subheading", Tahoma, Verdana, Segoe, sans-serif;
+		font-family: "sitka heading", Tahoma, Verdana, Segoe, sans-serif;
+		font-family: "sitka subheading", Tahoma, Verdana, Segoe, sans-serif;
 		"Mada"
 		"Nunito"
 */
@@ -31,8 +29,6 @@ body {
 }
 
 #wrapper {
-    /* max-width: 530px;
-    width: 100%; */
     width: 300px;
     margin: 0 auto;
 	background-color: #950202;
@@ -67,6 +63,7 @@ header {
 	background-color: #0F6B73;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	border-radius: 5px
 }
 
 main {
@@ -89,9 +86,6 @@ h2 {
 	color: #052426;
 	text-align: center;
 	font-family: "sitka subheading", sans-serif;
-}
-
-h3 {
 }
 
 p {
@@ -147,9 +141,6 @@ footer {
 }
 
 /*----------------------- ACCORDIAN CONTENT CSS --------------------*/
-.contentDiv {
-}
-
 .contentDiv h3{
 	margin: 5px;
 	font-size: 1.5em;
@@ -157,7 +148,7 @@ footer {
 }
 .contentDiv p{
 	margin: 5px;
-	font-family: mada;
+	font-family: nunito;
 }
 
 /*------------------------ ABOUT CSS --------------------------------*/
@@ -251,7 +242,7 @@ footer p {
 	
 	/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
 	#aboutImg {
-	float: left;
+		float: left;
 	}
 	
 	#aboutMe h3 {
@@ -266,6 +257,7 @@ footer p {
 	#guitarImg {
 		float: left;
 	}
+	
 	#guitar h3{
 		text-align: center;
 	}
@@ -309,7 +301,7 @@ footer p {
 	
 	/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
 	#aboutImg {
-	float: left;
+		float: left;
 	}
 	
 	#aboutMe h3 {
@@ -324,6 +316,7 @@ footer p {
 	#guitarImg {
 		float: left;
 	}
+	
 	#guitar h3{
 		text-align: center;
 	}
@@ -373,7 +366,7 @@ footer p {
 	
 	/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
 	#aboutImg {
-	float: left;
+		float: left;
 	}
 	
 	#aboutMe h3 {
@@ -402,7 +395,6 @@ footer p {
 		width: 400px;
 		height: 300px;
 		display: block;
-		
 	}
 }
 
