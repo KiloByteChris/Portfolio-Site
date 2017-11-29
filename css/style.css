@@ -148,7 +148,6 @@ footer {
 
 /*----------------------- ACCORDIAN CONTENT CSS --------------------*/
 .contentDiv {
-	/* height: initial; */
 }
 
 .contentDiv h3{
@@ -173,6 +172,9 @@ footer p {
 }
 
 /*------------------------ WEB DEV CSS -------------------------------*/
+.sampleWebsite {
+	width: 260px;
+}
 
 /*------------------------ GUITAR CSS --------------------------------*/
 #guitarImg {
@@ -246,6 +248,32 @@ footer p {
 	main {
 		width: 560px;
 	}
+	
+	/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
+	#aboutImg {
+	float: left;
+	}
+	
+	#aboutMe h3 {
+		text-align: center;
+	}
+	
+	#aboutMe p {
+		float: right;
+		width: 300px;
+	}
+	
+	#guitarImg {
+		float: left;
+	}
+	#guitar h3{
+		text-align: center;
+	}
+	
+	#guitar p {
+		float: right;
+		width: 300px;
+	}
 }
 
 /*-----------------------------------------------------------------------
@@ -278,6 +306,38 @@ footer p {
 	main {
 		width: 920px;
 	}
+	
+	/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
+	#aboutImg {
+	float: left;
+	}
+	
+	#aboutMe h3 {
+		text-align: center;
+	}
+	
+	#aboutMe p {
+		float: right;
+		width: 650px;
+	}
+	
+	#guitarImg {
+		float: left;
+	}
+	#guitar h3{
+		text-align: center;
+	}
+	
+	#guitar p {
+		float: right;
+		width: 650px;
+	}
+	
+	#guitarVideo {
+		width: 400px;
+		height: 300px;
+		display: block;
+	}
 }
 
 /*------------------------------------------------------------------------
@@ -309,6 +369,40 @@ footer p {
 	
 	main {
 		width: 1120px;
+	}
+	
+	/*----------------------- ACCORDIAN CONTENT CSS --------------------*/
+	#aboutImg {
+	float: left;
+	}
+	
+	#aboutMe h3 {
+		text-align: center;
+	}
+	
+	#aboutMe p {
+		float: right;
+		width: 850px;
+	}
+	
+	#guitarImg {
+		float: left;
+	}
+	
+	#guitar h3{
+		text-align: center;
+	}
+	
+	#guitar p {
+		float: right;
+		width: 850px;
+	}
+	
+	#guitarVideo {
+		width: 400px;
+		height: 300px;
+		display: block;
+		
 	}
 }
 
