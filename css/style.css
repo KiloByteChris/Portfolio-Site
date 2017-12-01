@@ -140,11 +140,6 @@ hr {
 	background-color: #C0C0C0;	
 }
 
-footer {
-	background-color: #083B40;
-	color: #fff;
-}
-
 /*----------------------- ACCORDIAN CONTENT CSS --------------------*/
 .contentDiv h3{
 	margin: 5px;
@@ -192,7 +187,7 @@ footer {
 
 #guitarVideo {
 	display: block;
-	width: 260px;
+	width: 250px;
 	margin: 10px auto;
 }
 
@@ -201,6 +196,11 @@ footer {
 /*------------------------ CONTACT CSS -------------------------------*/
 
 /*------------------------ FOOTER CSS --------------------------------*/
+footer {
+	background-color: #083B40;
+	color: #fff;
+}
+
 footer p {
 	padding: 20px 0 20px 0;
 }
@@ -236,6 +236,11 @@ footer p {
 	/*----------------------- ABOUT ----------------------*/
 	/*----------------------- WEB DEV --------------------*/
 	/*----------------------- GUITAR ---------------------*/
+	#guitarVideo {
+		width: 340px;
+		height: 200px;
+	}
+	
 	/*------------------------ BLOG CSS ------------------*/
 	/*------------------------ CONTACT CSS ---------------*/
 	/*------------------------ FOOTER CSS ----------------*/
@@ -372,6 +377,8 @@ footer p {
 	/*---------------------- GUITAR --------------*/
 	#guitarImg {
 		float: left;
+		width: 300px;
+		margin: 10px 0 10px 10px;
 	}
 	
 	#guitar h3{
@@ -380,7 +387,7 @@ footer p {
 	
 	#guitar p {
 		float: right;
-		width: 650px;
+		width: 580px;
 	}
 	
 	#guitarVideo {
@@ -475,6 +482,8 @@ footer p {
 	/*---------------------- GUITAR --------------*/
 	#guitarImg {
 		float: left;
+		width: 350px;
+		margin: 20px 0 20px 20px; 
 	}
 	
 	#guitar h3{
@@ -483,12 +492,12 @@ footer p {
 	
 	#guitar p {
 		float: right;
-		width: 850px;
+		width: 720px;
 	}
 	
 	#guitarVideo {
-		width: 400px;
-		height: 300px;
+		width: 620px;
+		height: 450px;
 		display: block;
 	}
 	
