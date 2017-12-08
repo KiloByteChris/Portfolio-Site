@@ -78,14 +78,14 @@ h1 {
 	font-size: 2em;
 	color: #052426;
 	text-align: center;
-	font-family: "sitka heading", "Tahoma", sans-serif;
+    font-family: "mada", "Tahoma", "Verdana", "Segoe", sans-serif;
 }
 
 h2 {
 	font-size: 1.2em;
 	color: #052426;
 	text-align: center;
-	font-family: "sitka subheading", sans-serif;
+	font-family: "mada", "Tahoma", "Verdana", "Segoe", sans-serif;
 }
 
 p {
@@ -100,11 +100,10 @@ hr {
 /*-------------------- ACCORDIAN CSS ---------------------*/
 
 .ui-accordion {
-    font-family: "sitka heading";
+    font-family: "mada", "Tahoma", "Verdana", "Segoe", sans-serif;
 }
 
 .ui-accordion .ui-accordion-header {
-	font-family: "sitka heading", sans-serif;
 	background-color: #000;
 	color: #C0C0C0;
 	font-size: 2em;
@@ -119,7 +118,7 @@ hr {
 }
 
 .ui-accordion-header {
-    font-family: "sitka heading", sans-serif;
+    font-family: "mada", "Tahoma", "Verdana", "Segoe", sans-serif;
 }
 
 .ui-accordion-header:hover {
@@ -149,7 +148,7 @@ hr {
 }
 .contentDiv p{
 	margin: 5px 10px 10px 10px;
-	font-family: nunito;
+	font-family: "nunito", "mada", "Tahoma", "Verdana", "Segoe", sans-serif;
 }
 
 /*------------------------ ABOUT CSS --------------------------------*/
